@@ -233,7 +233,7 @@ h1 {
     position: absolute;
     bottom: -70px;
     background: rgba(10, 9, 9, 0.85);
-    padding: 40px 0px;
+    padding: 40px 10px;
 }
 
 .arrows-main {
@@ -971,23 +971,37 @@ a.btn-1 :before {
             font-size: 40px;
         }
         .p-text-absolute {
-            max-width: 264px;
+            max-width: 344px;
             font-size: 16px;
             line-height: 27px;
-            bottom: -63px;
-            padding: 10px 0px;
-            left: 394px;
+            bottom: -34px;
+            padding: 10px 10px;
+            left: 235px;
         }
         .home-demo .owl-carousel .owl-dots {
             bottom: 8px;
-            left: 97px;
+            left: 45px;
         }
         .home-demo .owl-carousel .owl-nav {
-            left: 74px;
+            left: 19px  ;
             bottom: -16px;
             font-size: 62px;
             width: 2.8em;
         }
+        .btn-main {
+            width: 161px;
+            height: 51px;
+            background-color: #43285f;
+        }
+        .btn-main-shop {
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .main-right {
+            width: 421px;
+        }
+       
                
         
     }
@@ -1052,6 +1066,21 @@ a.btn-1 :before {
         .new-products .owl-carousel .owl-nav {
             display: none;
         }
+        .p-text-absolute {
+            max-width: 345px;
+            font-size: 16px;
+            line-height: 27px;
+            bottom: -34px;
+            padding: 10px 10px;
+            left: 30px;
+        }
+        .home-demo .owl-carousel .owl-nav {
+            left: 179px;
+            bottom: -35px;
+            font-size: 62px;
+            width: 2.8em;
+        }
+       
        
         }
        
@@ -1128,6 +1157,33 @@ a.btn-1 :before {
        
                 width: 94%;
                
+            }
+            h1 {
+                text-align: center;
+                font-size: 28px;
+                line-height: 32px;
+            }
+            .btn-main {
+                width: 142px;
+                height: 34px;
+                background-color: #43285f;
+            }
+            .main-right {
+                width: 281px;
+            }
+            .p-text-absolute {
+                max-width: 244px;
+                font-size: 14px;
+                line-height: 20px;
+                bottom: -40px;
+                padding: 10px 10px;
+                left: 37px;
+            }
+            .p-main {
+                font-size: 16px;
+                letter-spacing: 1px;
+                line-height: 0px;
+                font-weight: 300;
             }
 
 
@@ -1232,6 +1288,38 @@ a.btn-1 :before {
         }
         .btn-interior {
             margin-top: -12px;
+        }
+        .p-text-absolute {
+            max-width: 244px;
+            font-size: 12px;
+            line-height: 18px;
+            bottom: -40px;
+            padding: 10px 10px;
+            left: -9px;
+        }
+        .p-main {
+            font-size: 16px;
+            letter-spacing: 1px;
+            line-height: 0px;
+            font-weight: 300;
+        }
+        h1 {
+            text-align: center;
+            font-size: 21px;
+            line-height: 32px;
+        }
+        .btn-main {
+            width: 112px;
+            height: 34px;
+            background-color: #43285f;
+        }
+        .btn-main-shop {
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .main-right {
+            width: 239px;
         }
 
     }
