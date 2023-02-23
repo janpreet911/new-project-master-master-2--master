@@ -107,6 +107,7 @@ img {
 
 .head-third-container {
     gap: 1.5em;
+    padding-left: 16px;
 }
 
 .input-1 {
@@ -175,6 +176,7 @@ header.mobile {
 .main {
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .main-left {
@@ -222,14 +224,14 @@ h1 {
 }
 
 .p-text-absolute {
-    max-width: 495px;
+    max-width: 460px;
     font-size: 20px;
     line-height: 30px;
-    color: #caccc6;
+    color: rgb(202, 204, 198);
     right: 0px;
-    border: 3px solid #fff;
+    border: 3px solid rgb(255, 255, 255);
     position: absolute;
-    bottom: -8px;
+    bottom: -70px;
     background: rgba(10, 9, 9, 0.85);
     padding: 40px 0px;
 }
@@ -548,7 +550,7 @@ a.btn-1 :before {
 /* footer-2-ends */
 
 
-.home-demo .owl-carousel .owl-nav {
+/* .home-demo .owl-carousel .owl-nav {
     position: absolute;
     width: 2.5em;
     display: flex;
@@ -557,21 +559,22 @@ a.btn-1 :before {
     font-size: 83px;
     bottom: 106px;
     font-weight: 200;
-}
+} */
 
 .home-demo .owl-carousel .owl-dots {
     position: absolute;
     left: 5em;
+    bottom: 75px;
 }
-
-.new-products .owl-carousel .owl-nav {
+.home-demo .owl-carousel .owl-nav {
     position: absolute;
-    top: -54em;
-    right: 9px;
-    width: 7em;
+    width: 2.5em;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    left: 38px;
+    font-size: 83px;
+    bottom: 42px;
+    font-weight: 200;
 }
 .new-products .owl-carousel .owl-nav button {
     border: 3px solid #fff !important;
@@ -699,16 +702,36 @@ a.btn-1 :before {
         .toggle{
             display: none;
         }
+        .home-demo .owl-carousel .owl-dots {
+            left: 108px;
+            bottom: 20px;
+        }
+        .home-demo .owl-carousel .owl-nav {
+            left: 71px;
+            bottom: -16px;
+           
+        }
     }
 
 
     @media screen and (max-width:1360px) {
 
         .home-demo .owl-carousel .owl-dots {
-            bottom: 97px;
+            bottom: 66px;
         }
         .home-demo .owl-carousel .owl-nav {
-            bottom: 66px;
+            bottom: 36px;
+        }
+        .p-main {
+            font-size: 23px;
+            letter-spacing: 1px;
+            line-height: 18px;
+            font-weight: 300;
+        }
+        h1 {
+            font-size: 60px;
+            line-height: 74px;
+            font-weight: 700;
         }
         .cards img {
             max-width: 24%;
@@ -747,14 +770,14 @@ a.btn-1 :before {
     }
     @media screen and (max-width:1190px){
         .home-demo .owl-carousel .owl-nav {
-            left: 24px;
-            bottom: 34px;
-            font-size: 62px;
+            left: 78px;
+            bottom: 103px;
+            font-size: 60px;
             width: 2.8em;
         }
         .home-demo .owl-carousel .owl-dots {
-            bottom: 56px;
-            left: 48px;
+            bottom: 125px;
+            left: 104px;
         }
         .p-1 {
             font-size: 18px;
@@ -797,7 +820,29 @@ a.btn-1 :before {
         .toggle{
             display: none;
         }
-
+        .main{
+            padding-top: 50px;
+        }
+        .p-main {
+            font-size: 21px;
+            letter-spacing: 1px;
+            line-height: 0px;
+            font-weight: 300;
+        }
+        h1 {
+            font-size: 37px;
+            line-height: 46px;
+            font-weight: 700;
+        }
+        .p-text-absolute {
+            max-width: 360px;
+            font-size: 18px;
+            line-height: 27px;
+            right: 0px;
+            bottom: 1px;
+            padding: 11px 11px;
+        }
+       
     
         
     }
@@ -808,16 +853,7 @@ a.btn-1 :before {
             width: 95%;
             padding: 0 25px;
         }
-        .home-demo .owl-carousel .owl-dots {
-            bottom: 50px;
-            left: 33px;
-        }
-        .home-demo .owl-carousel .owl-nav {
-            left: 24px;
-            bottom: 34px;
-            font-size: 49px;
-            width: 2.8em;
-        }
+       
         .main-cards {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -914,6 +950,43 @@ a.btn-1 :before {
         nav.mobile-nav ul li a p {
             font-size: 14px;
             text-align: center;
+        }
+        .main-left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            
+        }
+        .main {
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 70px;
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+        .p-text-absolute {
+            max-width: 264px;
+            font-size: 16px;
+            line-height: 27px;
+            bottom: -63px;
+            padding: 10px 0px;
+            left: 394px;
+        }
+        .home-demo .owl-carousel .owl-dots {
+            bottom: 8px;
+            left: 97px;
+        }
+        .home-demo .owl-carousel .owl-nav {
+            left: 74px;
+            bottom: -16px;
+            font-size: 62px;
+            width: 2.8em;
         }
                
         
