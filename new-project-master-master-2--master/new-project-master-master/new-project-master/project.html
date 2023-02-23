@@ -85,7 +85,10 @@
                         <div class="mobile-logo">
                             <img src="./images/logo-header.png" alt="">
                         </div>
-                        <div class="toggle"><i class="fa-sharp fa-solid fa-bars"></i>
+                        <div class="toggle">
+                            <i class="fa-sharp fa-solid fa-bars"></i>
+                        </div>
+                        <div class="nav-menu-mobile">
                             <nav class="mobile-nav">
                                 <ul>
                                     <li><a href="#">
@@ -244,19 +247,41 @@
 
             <div class="images-1">
 
-                <div><img src="./images/img-1.png" alt=""></div>
+                <div class="img-100">
+                    <img src="./images/img-1.png" alt="">
+                    <p>UPCOMING <br> DROPS</p>
+                    
+                </div>
                 <div class="imgs-combo">
-                    <div><img src="./images/img-2.png" alt=""></div>
-                    <div><img src="./images/img-3.png" alt=""></div>
+                    <div class="img-99">
+                        <img src="./images/img-2.png" alt="">
+                        <p>GHG SHOP</p>
+                    </div>
+                    <div class="img-98">
+                        <img src="./images/img-3.png" alt="">
+                        <p>COLLECTION <br>
+                            BY ARTIST</p>
+                    </div>
                 </div>
             </div>
             <div class="images-2">
                 <div class="imgs-combo-2">
 
-                    <div><img src="./images/img-4.png" alt=""></div>
-                    <div><img src="./images/img-5.png" alt=""></div>
+                    <div class="img-97">
+                        <img src="./images/img-4.png" alt="">
+                        <p>PRODUCTION <br>
+                            BY COMPANY</p>
+                    </div>
+                    <div class="img-96">
+                        <img src="./images/img-5.png" alt="">
+                        <p>ACCESSORIES</p>
+                    </div>
                 </div>
-                <div><img src="./images/img-6.png" alt=""></div>
+                <div class="img-96">
+                    <img src="./images/img-6.png" alt="">
+                    <p>COLLECTION <br>
+                        BY ARTIST</p>
+                </div>
             </div>
         </section>
     </div>
@@ -350,7 +375,7 @@
                             <h4>Worm Glass Linework
                                 Telemagenta</h4>
                             <p>$1200.00</p>
-                            <a class="btn-1" href="">ADD TO CART</a>
+                            <a class="btn-1" href=""> ADD TO CART</a>
                             <a class="btn-2" href="">QUICK VIEW</a>
                         </div>
                     </div>
@@ -417,7 +442,7 @@
 
                             <button>
                                 <div class="btn-interior">
-                                    <img src="images/profile.png" alt="">
+                                    <img src="images/users.png" alt="">
                                     <p>SIGN UP</p>
                             </button>
                         </div>
@@ -535,14 +560,28 @@
     </script>
 
     <script>
-    $(document).ready(function () {
-        $(".toggle").click(function () {
-            $(".mobile-nav").slideToggle()
-            $(".mobile-search").slideToggle()
-            $(".mobile-search-1").slideToggle()
+    // $(document).ready(function () {
+    //     $(".toggle").click(function () {
+    //         $(".mobile-nav").slideToggle()
+    //         $(".mobile-search").slideToggle()
+    //         $(".mobile-search-1").slideToggle()
             
-        })
-    })
+    //     })
+    // })
+    const hamburgerMenu = document.querySelector('.toggle');
+    const mobileMenu = document.querySelector('.nav-menu-mobile');
+    let menuOpen = false;
+    hamburgerMenu.addEventListener('click', () => {
+        if(!menuOpen){
+        hamburgerMenu.classList.add('open');
+        mobileMenu.classList.add('active');
+        menuOpen = true;
+        } else {
+        hamburgerMenu.classList.remove('open');
+        mobileMenu.classList.remove('active');
+        menuOpen= false;
+        }
+    });
 </script>
 
 </body>
